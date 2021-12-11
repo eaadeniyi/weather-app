@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Weather Now</title>
+  <link rel="stylesheet" href="/css/styles.css" >
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <div class="two">
+    <div class="card">
+        <div class="search">
+            <input type="text" class="inputValue" placeholder="Enter a City" />
+            <input type="submit" value="Search" class="button">
+        </div>
+
+
+        <div class="input">
+        
+          <div class="display">
+            <h1 class="names"></h1>
+            <br>
+            <div class="flex">
+            <img src="" alt="" class="icon" />
+            <div class="description"></div>
+          </div>
+          
+          <br>
+          <p class="desc"> </p>
+          <br>
+          <p class="temp">  </p>
+          <br>
+        
+        </div>
+      
+      </div>
+    </div>
+  </div>
+
+
+ 
+   <script src="js/forecast.js"></script>
+   <script src="js/vanilla-tilt.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelector(".card"), {
+          max: 15,
+          glare: true,
+          reverse: true,
+          "max-glare": 0.5,
+          speed: 400
+      });
+      VanillaTilt.init(document.querySelectorAll(".card"));
+    </script>
+</body>
+
+</html>
