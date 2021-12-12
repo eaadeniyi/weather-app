@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background: url("/images/illustration3.jpg");
+  background: url("images/illustration3.jpg");
   background-repeat: no-repeat;
   background-size:cover;
   position: relative;
