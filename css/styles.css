@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background: url("images/illustration3.jpg");
+  background: url("/images/illustration3.jpg");
   background-repeat: no-repeat;
   background-size:cover;
   position: relative;
@@ -117,8 +117,3 @@ input[type="submit"]:hover {
   color: white;
 }
 
-/* .display {
-  text-align: center;
-  background-color:rgb(61, 75, 75);
-  color: white;
-} */
