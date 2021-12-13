@@ -1,18 +1,3 @@
-//Api key gotten from Accu Weather
-
-// const key = 'GHGkAjIUqkxbvfE3uVVE0gV1niehcSa8';
-
-//create function getCity and getWeather
-// const getCity = async (city) => {
-//   const url = 'https://dataservice.accuweather.com/locations/v1/cities/search';
-//   const query = `?apikey=${key}&q=${city}`;
-
-// };
-
-// const getWeather = async (id) => {
-//   const url = 'https://dataservice.accuweather.com/currentconditions/v1/';
-//   const query = `${id}?apikey=${key}`;
-// };
 
 //create a variable for button, inputvalue, names, description, temperature value
 var button = document.querySelector('.button');
@@ -51,9 +36,7 @@ button.addEventListener('click', function(){
     }
     )
     // .then(result => console.log(result));
-    .catch(err => alert("Wrong name of City!"))
-   
-    
+    .catch(err => alert("Wrong name of City!")) 
     
 })
 
