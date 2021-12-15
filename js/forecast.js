@@ -10,7 +10,7 @@ var temp = document.querySelector('.temp');
 //add an event listener to the button if clicked..
 //anonymous function with the fetch api as task to perform..
 button.addEventListener('click', function(){
-    fetch ('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&appid=092fbb5753a28bd7377a8d184ffac82c')
+    fetch ('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&' + {yourKey})
     .then(response=> response.json())
     .then(result => {
       var  nameValue = result['name'];
